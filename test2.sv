@@ -265,7 +265,9 @@ module test2;
     .displayChar(displayChar),
     .countSec(countSec),
     .countMin(countMin),
-    .countHr(countHr)
+    .countHr(countHr),
+    .alarmHr(alarmHr),
+    .alarmMin(alarmMin)
   );
 
 

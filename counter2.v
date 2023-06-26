@@ -1,5 +1,6 @@
 module counter2(
-input clk, reset, enable,currHour, currMin,
+input clk, reset, enable,
+input [7:0] currHour, currMin,
 output reg [7:0] countSec,countMin,countHr);
 
 //define states

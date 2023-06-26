@@ -5,19 +5,19 @@ This project implements a digital clock with alarm functionality. The clock disp
 
 The project consists of the following files:
 
-1. `alarm.sv`: This file contains the logic for the alarm module. It controls the alarm functionality based on the current time and the user-defined alarm time.
+1. `alarm.v`: This file contains the logic for the alarm module. It controls the alarm functionality based on the current time and the user-defined alarm time.
 
-2. `counter2.sv`: This file contains the logic for the counter module. It increments the time counters for seconds, minutes, and hours.
+2. `counter2.v`: This file contains the logic for the counter module. It increments the time counters for seconds, minutes, and hours.
 
-3. `light.sv`: This file contains the logic for the light module. It controls the state of the light based on the alarm trigger.
+3. `light.v`: This file contains the logic for the light module. It controls the state of the light based on the alarm trigger.
 
-4. `main.sv`: This file contains the main module of the digital clock. It instantiates the counter, alarm, light, weather and motion modules and connects them together.
+4. `main.v`: This file contains the main module of the digital clock. It instantiates the counter, alarm, light, weather and motion modules and connects them together.
 
 5. `memory.v`: This file contains the memory module that defines addr and data relation and gives the user option to control the current time and alarm time using these signals.
 
-6. `motion.sv`: This file contains the logic for the motion detection module. It detects motion and triggers an event to enable/disable the alarm functionality.
+6. `motion.v`: This file contains the logic for the motion detection module. It detects motion and triggers an event to enable/disable the alarm functionality.
 
-7. `weather.sv`: This file contains the logic for the weather module. It retrieves weather information and updates the display accordingly.
+7. `weather.v`: This file contains the logic for the weather module. It retrieves weather information and updates the display accordingly.
 
 8. `test2.sv`: This file is the SystemVerilog test bench for the digital clock. It instantiates the main module and provides stimulus to test the functionality of the clock.
 
